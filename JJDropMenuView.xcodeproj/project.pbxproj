@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EBD1792246A753600E33B43 /* JJDropMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBD1791246A753500E33B43 /* JJDropMenuModel.m */; };
+		7EBEC6222469183600AED2A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBEC6212469183600AED2A5 /* AppDelegate.m */; };
+		7EBEC6282469183600AED2A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBEC6272469183600AED2A5 /* ViewController.m */; };
+		7EBEC62B2469183600AED2A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EBEC6292469183600AED2A5 /* Main.storyboard */; };
+		7EBEC62D2469183A00AED2A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EBEC62C2469183A00AED2A5 /* Assets.xcassets */; };
+		7EBEC6302469183A00AED2A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EBEC62E2469183A00AED2A5 /* LaunchScreen.storyboard */; };
+		7EBEC6332469183A00AED2A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBEC6322469183A00AED2A5 /* main.m */; };
+		7EBEC63D2469183A00AED2A5 /* JJDropMenuViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBEC63C2469183A00AED2A5 /* JJDropMenuViewTests.m */; };
+		7EBEC6482469183A00AED2A5 /* JJDropMenuViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBEC6472469183A00AED2A5 /* JJDropMenuViewUITests.m */; };
+		7EBEC6582469194200AED2A5 /* JJDropMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBEC6572469194200AED2A5 /* JJDropMenuView.m */; };
+		7EBEC65B2469195B00AED2A5 /* JJDropMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBEC65A2469195B00AED2A5 /* JJDropMenuCell.m */; };
+		7EBEC65E2469197D00AED2A5 /* JJDropMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBEC65D2469197D00AED2A5 /* JJDropMenuButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EBEC6392469183A00AED2A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EBEC6152469183600AED2A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EBEC61C2469183600AED2A5;
+			remoteInfo = JJDropMenuView;
+		};
+		7EBEC6442469183A00AED2A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EBEC6152469183600AED2A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EBEC61C2469183600AED2A5;
+			remoteInfo = JJDropMenuView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EBD1790246A753500E33B43 /* JJDropMenuModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJDropMenuModel.h; sourceTree = "<group>"; };
+		7EBD1791246A753500E33B43 /* JJDropMenuModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJDropMenuModel.m; sourceTree = "<group>"; };
+		7EBEC61D2469183600AED2A5 /* JJDropMenuView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJDropMenuView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EBEC6202469183600AED2A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7EBEC6212469183600AED2A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7EBEC6262469183600AED2A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7EBEC6272469183600AED2A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7EBEC62A2469183600AED2A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EBEC62C2469183A00AED2A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EBEC62F2469183A00AED2A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EBEC6312469183A00AED2A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EBEC6322469183A00AED2A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EBEC6382469183A00AED2A5 /* JJDropMenuViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJDropMenuViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EBEC63C2469183A00AED2A5 /* JJDropMenuViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJDropMenuViewTests.m; sourceTree = "<group>"; };
+		7EBEC63E2469183A00AED2A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EBEC6432469183A00AED2A5 /* JJDropMenuViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJDropMenuViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EBEC6472469183A00AED2A5 /* JJDropMenuViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJDropMenuViewUITests.m; sourceTree = "<group>"; };
+		7EBEC6492469183A00AED2A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EBEC6562469194200AED2A5 /* JJDropMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJDropMenuView.h; sourceTree = "<group>"; };
+		7EBEC6572469194200AED2A5 /* JJDropMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJDropMenuView.m; sourceTree = "<group>"; };
+		7EBEC6592469195B00AED2A5 /* JJDropMenuCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJDropMenuCell.h; sourceTree = "<group>"; };
+		7EBEC65A2469195B00AED2A5 /* JJDropMenuCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJDropMenuCell.m; sourceTree = "<group>"; };
+		7EBEC65C2469197D00AED2A5 /* JJDropMenuButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJDropMenuButton.h; sourceTree = "<group>"; };
+		7EBEC65D2469197D00AED2A5 /* JJDropMenuButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJDropMenuButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EBEC61A2469183600AED2A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EBEC6352469183A00AED2A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EBEC6402469183A00AED2A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EBEC6142469183600AED2A5 = {
+			isa = PBXGroup;
+			children = (
+				7EBEC61F2469183600AED2A5 /* JJDropMenuView */,
+				7EBEC63B2469183A00AED2A5 /* JJDropMenuViewTests */,
+				7EBEC6462469183A00AED2A5 /* JJDropMenuViewUITests */,
+				7EBEC61E2469183600AED2A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EBEC61E2469183600AED2A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EBEC61D2469183600AED2A5 /* JJDropMenuView.app */,
+				7EBEC6382469183A00AED2A5 /* JJDropMenuViewTests.xctest */,
+				7EBEC6432469183A00AED2A5 /* JJDropMenuViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EBEC61F2469183600AED2A5 /* JJDropMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				7EBEC655246918D900AED2A5 /* JJDropMenuView */,
+				7EBEC6202469183600AED2A5 /* AppDelegate.h */,
+				7EBEC6212469183600AED2A5 /* AppDelegate.m */,
+				7EBEC6262469183600AED2A5 /* ViewController.h */,
+				7EBEC6272469183600AED2A5 /* ViewController.m */,
+				7EBEC6292469183600AED2A5 /* Main.storyboard */,
+				7EBEC62C2469183A00AED2A5 /* Assets.xcassets */,
+				7EBEC62E2469183A00AED2A5 /* LaunchScreen.storyboard */,
+				7EBEC6312469183A00AED2A5 /* Info.plist */,
+				7EBEC6322469183A00AED2A5 /* main.m */,
+			);
+			path = JJDropMenuView;
+			sourceTree = "<group>";
+		};
+		7EBEC63B2469183A00AED2A5 /* JJDropMenuViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EBEC63C2469183A00AED2A5 /* JJDropMenuViewTests.m */,
+				7EBEC63E2469183A00AED2A5 /* Info.plist */,
+			);
+			path = JJDropMenuViewTests;
+			sourceTree = "<group>";
+		};
+		7EBEC6462469183A00AED2A5 /* JJDropMenuViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EBEC6472469183A00AED2A5 /* JJDropMenuViewUITests.m */,
+				7EBEC6492469183A00AED2A5 /* Info.plist */,
+			);
+			path = JJDropMenuViewUITests;
+			sourceTree = "<group>";
+		};
+		7EBEC655246918D900AED2A5 /* JJDropMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				7EBEC6562469194200AED2A5 /* JJDropMenuView.h */,
+				7EBEC6572469194200AED2A5 /* JJDropMenuView.m */,
+				7EBEC65C2469197D00AED2A5 /* JJDropMenuButton.h */,
+				7EBEC65D2469197D00AED2A5 /* JJDropMenuButton.m */,
+				7EBEC6592469195B00AED2A5 /* JJDropMenuCell.h */,
+				7EBEC65A2469195B00AED2A5 /* JJDropMenuCell.m */,
+				7EBD1790246A753500E33B43 /* JJDropMenuModel.h */,
+				7EBD1791246A753500E33B43 /* JJDropMenuModel.m */,
+			);
+			path = JJDropMenuView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EBEC61C2469183600AED2A5 /* JJDropMenuView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EBEC64C2469183A00AED2A5 /* Build configuration list for PBXNativeTarget "JJDropMenuView" */;
+			buildPhases = (
+				7EBEC6192469183600AED2A5 /* Sources */,
+				7EBEC61A2469183600AED2A5 /* Frameworks */,
+				7EBEC61B2469183600AED2A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJDropMenuView;
+			productName = JJDropMenuView;
+			productReference = 7EBEC61D2469183600AED2A5 /* JJDropMenuView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EBEC6372469183A00AED2A5 /* JJDropMenuViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EBEC64F2469183A00AED2A5 /* Build configuration list for PBXNativeTarget "JJDropMenuViewTests" */;
+			buildPhases = (
+				7EBEC6342469183A00AED2A5 /* Sources */,
+				7EBEC6352469183A00AED2A5 /* Frameworks */,
+				7EBEC6362469183A00AED2A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EBEC63A2469183A00AED2A5 /* PBXTargetDependency */,
+			);
+			name = JJDropMenuViewTests;
+			productName = JJDropMenuViewTests;
+			productReference = 7EBEC6382469183A00AED2A5 /* JJDropMenuViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EBEC6422469183A00AED2A5 /* JJDropMenuViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EBEC6522469183A00AED2A5 /* Build configuration list for PBXNativeTarget "JJDropMenuViewUITests" */;
+			buildPhases = (
+				7EBEC63F2469183A00AED2A5 /* Sources */,
+				7EBEC6402469183A00AED2A5 /* Frameworks */,
+				7EBEC6412469183A00AED2A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EBEC6452469183A00AED2A5 /* PBXTargetDependency */,
+			);
+			name = JJDropMenuViewUITests;
+			productName = JJDropMenuViewUITests;
+			productReference = 7EBEC6432469183A00AED2A5 /* JJDropMenuViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EBEC6152469183600AED2A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Lance;
+				TargetAttributes = {
+					7EBEC61C2469183600AED2A5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					7EBEC6372469183A00AED2A5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7EBEC61C2469183600AED2A5;
+					};
+					7EBEC6422469183A00AED2A5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7EBEC61C2469183600AED2A5;
+					};
+				};
+			};
+			buildConfigurationList = 7EBEC6182469183600AED2A5 /* Build configuration list for PBXProject "JJDropMenuView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EBEC6142469183600AED2A5;
+			productRefGroup = 7EBEC61E2469183600AED2A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EBEC61C2469183600AED2A5 /* JJDropMenuView */,
+				7EBEC6372469183A00AED2A5 /* JJDropMenuViewTests */,
+				7EBEC6422469183A00AED2A5 /* JJDropMenuViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EBEC61B2469183600AED2A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EBEC6302469183A00AED2A5 /* LaunchScreen.storyboard in Resources */,
+				7EBEC62D2469183A00AED2A5 /* Assets.xcassets in Resources */,
+				7EBEC62B2469183600AED2A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EBEC6362469183A00AED2A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EBEC6412469183A00AED2A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EBEC6192469183600AED2A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EBEC65B2469195B00AED2A5 /* JJDropMenuCell.m in Sources */,
+				7EBEC6582469194200AED2A5 /* JJDropMenuView.m in Sources */,
+				7EBEC6282469183600AED2A5 /* ViewController.m in Sources */,
+				7EBEC65E2469197D00AED2A5 /* JJDropMenuButton.m in Sources */,
+				7EBEC6222469183600AED2A5 /* AppDelegate.m in Sources */,
+				7EBD1792246A753600E33B43 /* JJDropMenuModel.m in Sources */,
+				7EBEC6332469183A00AED2A5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EBEC6342469183A00AED2A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EBEC63D2469183A00AED2A5 /* JJDropMenuViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EBEC63F2469183A00AED2A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EBEC6482469183A00AED2A5 /* JJDropMenuViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EBEC63A2469183A00AED2A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EBEC61C2469183600AED2A5 /* JJDropMenuView */;
+			targetProxy = 7EBEC6392469183A00AED2A5 /* PBXContainerItemProxy */;
+		};
+		7EBEC6452469183A00AED2A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EBEC61C2469183600AED2A5 /* JJDropMenuView */;
+			targetProxy = 7EBEC6442469183A00AED2A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EBEC6292469183600AED2A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EBEC62A2469183600AED2A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EBEC62E2469183A00AED2A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EBEC62F2469183A00AED2A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EBEC64A2469183A00AED2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EBEC64B2469183A00AED2A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EBEC64D2469183A00AED2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86KYV64QTU;
+				INFOPLIST_FILE = JJDropMenuView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lance.JJDropMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7EBEC64E2469183A00AED2A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86KYV64QTU;
+				INFOPLIST_FILE = JJDropMenuView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lance.JJDropMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7EBEC6502469183A00AED2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86KYV64QTU;
+				INFOPLIST_FILE = JJDropMenuViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lance.JJDropMenuViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJDropMenuView.app/JJDropMenuView";
+			};
+			name = Debug;
+		};
+		7EBEC6512469183A00AED2A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86KYV64QTU;
+				INFOPLIST_FILE = JJDropMenuViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lance.JJDropMenuViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJDropMenuView.app/JJDropMenuView";
+			};
+			name = Release;
+		};
+		7EBEC6532469183A00AED2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86KYV64QTU;
+				INFOPLIST_FILE = JJDropMenuViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lance.JJDropMenuViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JJDropMenuView;
+			};
+			name = Debug;
+		};
+		7EBEC6542469183A00AED2A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86KYV64QTU;
+				INFOPLIST_FILE = JJDropMenuViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lance.JJDropMenuViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JJDropMenuView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EBEC6182469183600AED2A5 /* Build configuration list for PBXProject "JJDropMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EBEC64A2469183A00AED2A5 /* Debug */,
+				7EBEC64B2469183A00AED2A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EBEC64C2469183A00AED2A5 /* Build configuration list for PBXNativeTarget "JJDropMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EBEC64D2469183A00AED2A5 /* Debug */,
+				7EBEC64E2469183A00AED2A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EBEC64F2469183A00AED2A5 /* Build configuration list for PBXNativeTarget "JJDropMenuViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EBEC6502469183A00AED2A5 /* Debug */,
+				7EBEC6512469183A00AED2A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EBEC6522469183A00AED2A5 /* Build configuration list for PBXNativeTarget "JJDropMenuViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EBEC6532469183A00AED2A5 /* Debug */,
+				7EBEC6542469183A00AED2A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EBEC6152469183600AED2A5 /* Project object */;
+}
